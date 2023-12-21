@@ -1,0 +1,6 @@
+.header__enter {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 25px;
+    padding-right: 25px;
+}

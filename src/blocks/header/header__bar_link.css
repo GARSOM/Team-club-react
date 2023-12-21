@@ -1,0 +1,25 @@
+.header__bar_link {
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header__bar_link:nth-child(2) {
+    color: yellow;
+}
+
+.header__bar_link:nth-child(3) {
+    color: blue;
+}
+
+.header__bar_link:nth-child(4) {
+    color: rgb(237, 63, 253);
+}
+
+.header__bar_link:nth-child(5) {
+    color: rgb(180, 0, 99);
+}
