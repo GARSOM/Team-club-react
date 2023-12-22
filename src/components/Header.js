@@ -14,6 +14,7 @@ export default function Header() {
                 <img className="header__logo" src={headerLogo} />
             </Link>
             <Link className='header__bar_link_zal' to='/game'>Игры</Link>
+            <Link className='header__bar_link_zal' to='/photo'>Галерея</Link>
             <nav>
                 <button className='header__bar_link_zal' onClick={() => setOpen(!isOpen)}>ЗАЛ</button>
                 <div ref={ref} className={`header__bar_menu ${isOpen ? 'header__bar_menu_active' : ''}`}>

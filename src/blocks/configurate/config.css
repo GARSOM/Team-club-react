@@ -225,3 +225,7 @@
     text-align: start;
     font-size: 10px;
 }
+
+.text__p_d-inactive {
+    visibility: hidden;
+}

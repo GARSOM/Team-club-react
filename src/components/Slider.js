@@ -20,6 +20,8 @@ const images = [
 
 export default class MyGallery extends React.Component {
     render() {
-        return <ImageGallery style='border:1px solid red' items={images} />;
+      
+            return  <div className="s"> <ImageGallery items={images} />;
+        </div>
     }
 }

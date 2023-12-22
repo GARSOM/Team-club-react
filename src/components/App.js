@@ -7,6 +7,7 @@ import Komfort from './Komfort';
 import Komfortplus from './Komfortplus';
 import Vip from './Vip'
 import Footer from './Footer'
+import Photo from './Photo';
 import {
   BrowserRouter as Router,
   Routes,
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path='/' element={<About />}></Route>
         <Route path='/game' element={<Game />}></Route>
+        <Route path='/photo' element={<Photo />}></Route>
         <Route path='/standart' element={<Standart />} />
         <Route path='/komfort' element={<Komfort />} />
         <Route path='/komfortplus' element={<Komfortplus />} />

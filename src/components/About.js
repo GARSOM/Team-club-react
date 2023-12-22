@@ -15,15 +15,21 @@ export default function About() {
                         <p ><Link className='header__bar_link_komplus' to='/komfortplus'>8 Комфорт +</Link></p>
                         <p ><Link className='header__bar_link_vip' to='/vip'>10 VIP</Link></p>
                     </div>
+                    <div className='ss'>
+                        <Slider /></div>
                 </div>
                 <div className="about-div">
                     <img className='about_img' src={img2}></img>
                     <div className='about-div_mini'>
-                        <p className='text__p'>3 PS</p>
+                        <p className='text__p'>3 PS Zone</p>
+                        <p ><Link className='header__bar_link_std' to='/ps'>PS4 3 места</Link></p>
+                        <p ><Link className='header__bar_link_kom' to='/ps'>PS4 6 мест</Link></p>
+                        <p ><Link className='header__bar_link_komplus' to='/ps'>PS5 5 мест</Link></p>
                     </div>
+                    <div className='ss'>
+                        <Slider /></div>
                 </div>
             </div>
-            {/* <Slider /> */}
         </>
     )
 }

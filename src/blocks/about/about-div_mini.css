@@ -1,6 +1,5 @@
 .about-div_mini {
     display: flex;
     flex-direction: column;
-    padding-right: 50px;
     text-align: center;
 }

@@ -6,6 +6,7 @@ import monik from '../images/icon/monik.svg'
 import keyboard from '../images/icon/keyboard.svg'
 import headphone from '../images/icon/headphone.svg'
 import mouse from '../images/icon/mouse.svg'
+import Faq from './Faq'
 export default function Config(props) {
     return (
         <div className="zal">
@@ -155,12 +156,7 @@ export default function Config(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='configuration__discription'>
-                                    <p className='text__p_d'>* При активации пакета он хранятся на вашем аккаунте в клубе 24 часа</p>
-                                    <p className='text__p_d'>* Пакеты (3, 4, 12) часов доступны с 09:00 до 19:00</p>
-                                    <p className='text__p_d'>* Пакеты (ночной) доступен с 22:30 до 08:00</p>
-                                    <p className='text__p_d'>* Каждый 5 (ночной) пакет бесплатно</p>
-                                </div>
+                                <Faq />
                             </div>
                         </div>
                     </div>

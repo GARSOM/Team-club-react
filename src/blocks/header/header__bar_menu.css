@@ -4,7 +4,6 @@
     position: absolute;
     justify-content: center;
     opacity: 0;
-    transform: translateX(-320px);
     visibility: hidden;
     transition: .8s;
     border-radius: 10px;
@@ -12,7 +11,7 @@
 }
 
 .header__bar_menu_active {
-    transform: translateX(-30px);
+    transform: translate(-50px, 25px);
     visibility: visible;
     opacity: 1;
 }
