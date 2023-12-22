@@ -12,12 +12,14 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Game from './Game';
 function App() {
   return (
     <div className="page">
       <Header />
       <Routes>
         <Route path='/' element={<About />}></Route>
+        <Route path='/game' element={<Game />}></Route>
         <Route path='/standart' element={<Standart />} />
         <Route path='/komfort' element={<Komfort />} />
         <Route path='/komfortplus' element={<Komfortplus />} />

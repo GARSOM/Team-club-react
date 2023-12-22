@@ -1,0 +1,18 @@
+.header__bar_menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    opacity: 0;
+    transform: translateX(-320px);
+    visibility: hidden;
+    transition: .8s;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.header__bar_menu_active {
+    transform: translateX(-30px);
+    visibility: visible;
+    opacity: 1;
+}

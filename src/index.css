@@ -15,4 +15,12 @@
 @import url(./blocks/header/header__enter.css);
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__paragraph/footer__paragraph.css);
+@import url(./blocks/header/header__bar_menu.css);
+@import url(./blocks/tournament/tournament.css);
+@import url(./blocks/tournament/tournament__brief.css);
+@import url(./blocks/tournament/tournament__columns.css);
+@import url(./blocks/tournament/tournament__info.css);
+@import url(./blocks/tournament/tournament__photo.css);
+@import url(./blocks/text/text_discription.css);
+@import url(./blocks/about/about-div_mini.css);
 @import "~react-image-gallery/styles/css/image-gallery.css";

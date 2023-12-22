@@ -1,19 +1,25 @@
 import ImageGallery from "react-image-gallery";
 import React from "react";
-import img from '../images/1672426171_17-zefirka-club-p-chernii-fon-s-liniyami-19.jpg'
+import slide_1 from '../images/live_photo/HeadPhone.png'
+import slide_2 from '../images/live_photo/keyboard.jpg'
+import slide_3 from '../images/live_photo/23-27.jpg'
 const images = [
     {
-        original: 'https://fikiwiki.com/uploads/posts/2022-02/1644932622_3-fikiwiki-com-p-kartinki-priroda-na-rabochii-stol-1920kh10-3.jpg',
-        thumbnail: 'https://fikiwiki.com/uploads/posts/2022-02/1644932622_3-fikiwiki-com-p-kartinki-priroda-na-rabochii-stol-1920kh10-3.jpg',
+        original: slide_1,
+        thumbnail: slide_1,
     },
     {
-        original: 'https://fikiwiki.com/uploads/posts/2022-02/1644932622_3-fikiwiki-com-p-kartinki-priroda-na-rabochii-stol-1920kh10-3.jpg',
-        thumbnail: 'https://fikiwiki.com/uploads/posts/2022-02/1644932622_3-fikiwiki-com-p-kartinki-priroda-na-rabochii-stol-1920kh10-3.jpg',
+        original: slide_2,
+        thumbnail: slide_2,
+    },
+    {
+        original: slide_3,
+        thumbnail: slide_3,
     },
 ];
 
 export default class MyGallery extends React.Component {
     render() {
-        return <ImageGallery items={images} />;
+        return <ImageGallery style='border:1px solid red' items={images} />;
     }
 }

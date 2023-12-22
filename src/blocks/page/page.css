@@ -5,7 +5,6 @@
     font-family: "TC", Arial, Helvetica, sans-serif;
     background-color: black;
     color: rgb(255, 255, 255);
-    overflow: hidden;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;

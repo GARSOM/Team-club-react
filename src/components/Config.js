@@ -13,6 +13,7 @@ export default function Config(props) {
                 <section className="configuration">
                     <div className="container">
                         <div id='config' className="configuration__tab-contents" >
+                            <h1 className='header__bar_link_zal'>{props.zal}</h1>
                             <div className="configuration__tabs" >
                                 <button className='configuration__tab is-active'>Конфигурация</button>
                             </div>

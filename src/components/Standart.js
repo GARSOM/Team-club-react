@@ -1,9 +1,8 @@
 import Config from "./Config"
-import Slider from "./Slider"
+
 export default function Standart() {
     return (
         <>
-            <Slider />
             <Config
                 zal='Стандарт'
                 proc='i5 8500KF'
