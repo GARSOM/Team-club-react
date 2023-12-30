@@ -1,7 +1,6 @@
 import '../index';
 import Header from './Header';
 import About from './About';
-import Loader from './Loader';
 import Standart from './Standart'
 import Komfort from './Komfort';
 import Komfortplus from './Komfortplus';

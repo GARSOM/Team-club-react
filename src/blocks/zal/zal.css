@@ -1,0 +1,278 @@
+.rec {
+    margin-top: 100px;
+    margin-left: 20px;
+    width: fit-content;
+    height: 50px;
+}
+
+.rec-ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+.rec-text {
+    padding: 10px;
+    margin: auto;
+    font-size: 25px;
+    color: aliceblue;
+    outline: none;
+    /* Для синий ободки */
+    border: 0;
+    background: transparent;
+}
+
+.zal {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+}
+
+.standart {
+    border: 1x;
+    margin-top: 0;
+    margin-right: 5px;
+    font-size: 45px;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    width: fit-content;
+    padding-right: 10px;
+}
+
+.standart__1-3 {
+
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.standart__4-12 {
+    margin-left: -50px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.standart__13-17 {
+    margin-left: -290px;
+    padding: 0;
+    align-self: self-end;
+    display: flex;
+    flex-direction: row-reverse;
+    height: fit-content;
+}
+
+.standart__pc {
+    display: flex;
+    width: 45px;
+    border: 1px solid rgb(0, 0, 0);
+    list-style-type: none;
+    margin: 5px;
+
+}
+
+.standart__pc-text {
+    color: rgb(216, 216, 90);
+    border-color: rgb(216, 216, 90);
+    margin: auto;
+    outline: none;
+    /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    text-shadow:
+        0 0 7px yellow,
+
+        0 0 151px yellow;
+}
+
+.comfort {
+
+    width: fit-content;
+    margin: 0;
+    margin-left: 210px;
+    font-size: 45px;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.comfort__18-27 {
+
+    margin-top: 5px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.comfort__pc {
+    display: flex;
+    width: 53px;
+    border: 1px solid rgb(0, 0, 0);
+    list-style-type: none;
+    margin: 5px;
+}
+
+.comfort__pc-text {
+    color: rgb(32, 108, 179);
+    margin: auto;
+    font-size: 23px;
+    outline: none;
+    /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    text-shadow:
+        0 0 7px blue,
+        0 0 10px blue,
+
+        0 0 82px blue,
+        0 0 102px blue,
+        0 0 151px blue;
+}
+
+.vip {
+    border: 2px solid rgb(223, 50, 50);
+    margin: 0;
+    font-size: 45px;
+    list-style-type: none;
+    display: flex;
+    width: auto;
+    padding: 0;
+    flex-direction: column;
+}
+
+.vip__36-40 {
+    padding: 0;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 100px;
+}
+
+.vip__41-45 {
+    padding: 0;
+    display: flex;
+    width: fit-content;
+    flex-direction: row-reverse;
+}
+
+.vip__pc {
+    display: flex;
+    width: 55px;
+    border: 1px solid rgb(0, 0, 0);
+    list-style-type: none;
+    margin: 5px;
+}
+
+.vip__pc-text {
+    color: rgb(242, 23, 23);
+    margin: auto;
+    font-size: 25px;
+    outline: none;
+    /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    text-shadow:
+        0 0 7px rgb(180, 0, 99),
+        0 0 10px rgb(180, 0, 99),
+        0 0 151px rgb(180, 0, 99);
+}
+
+.std-vip {
+    display: flex;
+    flex-direction: row;
+}
+
+.comfort- {
+    margin: 50px 50px 0px 100px;
+    font-size: 45px;
+    list-style-type: none;
+    display: flex;
+    width: auto;
+    padding: 0;
+    flex-direction: column;
+}
+
+.res_com- {
+    display: flex;
+    justify-items: flex-start;
+
+}
+
+.comfort-__pc {
+    display: flex;
+    width: 55px;
+    border: 1px solid rgb(0, 0, 0);
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.comfort-__28-31 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    display: flex;
+    width: fit-content;
+    flex-direction: column-reverse;
+}
+
+.comfort-__pc-text {
+    color: rgb(240, 46, 247);
+    margin: auto;
+    outline: none;
+    /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    text-shadow:
+        0 0 7px rgb(237, 63, 253),
+        0 0 151px rgb(237, 63, 253);
+}
+
+.comfort-- {
+    display: flex;
+}
+
+.comfort-__32-35 {
+    padding: 0;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+
+.ps {
+    margin: 50px 50px 0px 0px;
+    font-size: 45px;
+    list-style-type: none;
+    display: flex;
+    width: auto;
+    padding: 0;
+    flex-direction: row;
+}
+
+.ps5-4 {
+    display: flex;
+    border-right: 5px solid black;
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.ps-text {
+    color: rgb(255, 255, 255);
+    background: transparent;
+    margin: auto;
+    font-size: 25px;
+    outline: none;
+    /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    text-shadow:
+        0 0 7px rgb(237, 63, 253),
+        0 0 151px rgb(237, 63, 253);
+}

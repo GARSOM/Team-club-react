@@ -14,7 +14,7 @@ export default function Config(props) {
                 <section className="configuration">
                     <div className="container">
                         <div id='config' className="configuration__tab-contents" >
-                            <h1 className='header__bar_link_zal'>{props.zal}</h1>
+                            <h1 className='zal__price_title'>{props.zal}</h1>
                             <div className="configuration__tabs" >
                                 <button className='configuration__tab is-active'>Конфигурация</button>
                             </div>
@@ -47,7 +47,7 @@ export default function Config(props) {
                                         </div>
                                         <div className="configuration__info">
                                             <div className="configuration__type">накопитель</div>
-                                            <div className="configuration__name">{props.ssd}</div>
+                                            <div className="configuration__name">ssd m2 {props.ssd}</div>
                                         </div>
                                     </div>
                                     <div className="configuration__item ">

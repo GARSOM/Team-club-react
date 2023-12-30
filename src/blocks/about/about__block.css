@@ -1,8 +1,5 @@
-.about-div {
+.about__block {
     display: flex;
     justify-content: space-between;
-}
-
-.ss {
-    max-width: 400px;
+    max-width: 60%;
 }

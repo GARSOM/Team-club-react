@@ -3,6 +3,7 @@ import React from "react";
 import slide_1 from '../images/live_photo/HeadPhone.png'
 import slide_2 from '../images/live_photo/keyboard.jpg'
 import slide_3 from '../images/live_photo/23-27.jpg'
+import slide_4 from '../images/live_photo/dualsense.jpg'
 const images = [
     {
         original: slide_1,
@@ -15,13 +16,16 @@ const images = [
     {
         original: slide_3,
         thumbnail: slide_3,
+    }, {
+        original: slide_4,
+        thumbnail: slide_4,
     },
 ];
 
 export default class MyGallery extends React.Component {
     render() {
-      
-            return  <div className="s"> <ImageGallery items={images} />;
+
+        return <div className="s"> <ImageGallery items={images} />;
         </div>
     }
 }
