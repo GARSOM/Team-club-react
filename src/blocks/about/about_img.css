@@ -2,3 +2,14 @@
     width: 250px;
     height: 250px;
 }
+
+@media screen and (max-width: 620px) {
+    .about_img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about_img:last-child {
+        margin-left: 40px;
+    }
+}

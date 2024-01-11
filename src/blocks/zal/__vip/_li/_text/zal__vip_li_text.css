@@ -1,0 +1,14 @@
+.zal__vip_li_text {
+    color: rgb(242, 23, 23);
+    margin: auto;
+    font-size: 25px;
+    outline: none;
+    /* Для синий ободки */
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+    text-shadow:
+        0 0 7px rgb(180, 0, 99),
+        0 0 10px rgb(180, 0, 99),
+        0 0 151px rgb(180, 0, 99);
+}

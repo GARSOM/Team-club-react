@@ -1,0 +1,9 @@
+.zal__comfort-plus {
+    margin: 50px 50px 0px 100px;
+    font-size: 45px;
+    list-style-type: none;
+    display: flex;
+    width: auto;
+    padding: 0;
+    flex-direction: column;
+}

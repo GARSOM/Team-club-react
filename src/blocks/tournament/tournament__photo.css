@@ -1,6 +1,5 @@
 .tournament__photo {
-    margin-left: -65px;
-    width: 220px;
+    width: 180px;
     align-self: flex-start;
     transition: 1s;
     border-radius: 20px;
@@ -8,8 +7,4 @@
 
 .tournament__photo:hover {
     transform: scale(1.2);
-}
-
-.tournament__photo:first-child {
-    margin-left: 50px;
 }

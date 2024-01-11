@@ -1,0 +1,7 @@
+.standart__4-12 {
+    margin-left: -50px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}

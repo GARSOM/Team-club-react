@@ -1,0 +1,11 @@
+.zal__reception_text {
+    padding: 10px;
+    margin: auto;
+    font-size: 25px;
+    color: aliceblue;
+    outline: none;
+    /* Для синий ободки */
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+}

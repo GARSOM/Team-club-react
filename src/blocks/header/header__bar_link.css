@@ -1,11 +1,19 @@
 .header__bar_link_zal {
+    margin-top: 10px;
     color: inherit;
     background-color: transparent;
     cursor: pointer;
     padding: 0;
     border: none;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 100%;
+    text-align: center;
+    color: rgb(73, 213, 255);
+    text-shadow:
+        0 0 10px rgb(73, 213, 255),
+        0 0 82px rgb(73, 213, 255),
+        0 0 102px rgb(73, 213, 255),
+        0 0 151px rgb(73, 213, 255);
 }
 
 .header__bar_link_std {
@@ -21,8 +29,6 @@
     color: yellow;
     text-shadow:
         0 0 7px yellow,
-        0 0 10px yellow,
-        0 0 82px yellow,
         0 0 102px yellow,
         0 0 151px yellow;
 }
@@ -59,8 +65,6 @@
     color: rgb(237, 63, 253);
     text-shadow:
         0 0 7px rgb(237, 63, 253),
-        0 0 10px rgb(237, 63, 253),
-        0 0 82px rgb(237, 63, 253),
         0 0 102px rgb(237, 63, 253),
         0 0 151px rgb(237, 63, 253);
 }
@@ -82,22 +86,4 @@
         0 0 82px rgb(180, 0, 99),
         0 0 102px rgb(180, 0, 99),
         0 0 151px rgb(180, 0, 99);
-}
-
-.header__bar_link_zal {
-    margin-top: 10px;
-    color: inherit;
-    background-color: transparent;
-    cursor: pointer;
-    padding: 0;
-    border: none;
-    text-decoration: none;
-    font-size: 18px;
-    text-align: center;
-    color: rgb(73, 213, 255);
-    text-shadow:
-        0 0 10px rgb(73, 213, 255),
-        0 0 82px rgb(73, 213, 255),
-        0 0 102px rgb(73, 213, 255),
-        0 0 151px rgb(73, 213, 255);
 }

@@ -1,0 +1,7 @@
+.zal__ps_li {
+    display: flex;
+    border-right: 5px solid black;
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 25px;
+    padding-right: 25px;
+}

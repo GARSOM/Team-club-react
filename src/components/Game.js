@@ -22,8 +22,7 @@ export default function Game() {
     return (
         <section className="tournament">
             <a name="tournament"></a>
-            <h2 className="title__page">Турниры / Игры</h2>
-            <p className="subtitle">Популярное</p>
+            <h2 className="zal__price_title">Библиотека</h2>
             <div className="tournament__columns">
                 <img className="tournament__photo" src={cs2} alt='' />
                 <img className="tournament__photo" src={dota2} alt='' />
@@ -37,25 +36,16 @@ export default function Game() {
                 <img className="tournament__photo" src={rust} alt='' />
                 <img className="tournament__photo" src={warzone} />
                 <img className="tournament__photo" src={b4b} alt='' />
-                <img className="tournament__photo" src={eft} />
-                <img className="tournament__photo" src={wt} />
-                <img className="tournament__photo" src={wot} />
-                <img className="tournament__photo" src={warface} />
+                <img className="tournament__photo" src={eft} alt='' />
+                <img className="tournament__photo" src={wt} alt='' />
+                <img className="tournament__photo" src={wot} alt='' />
+                <img className="tournament__photo" src={warface} alt='' />
             </div>
-            <p className="subtitle">Игры на PS</p>
-            <p className="tournament__brief">Есть более 2000 игр, по подписке PS PLUS. Помимо игр ниже, можно скачать любую
-                игру на Ваше усмотрения, время скачивания
-                бесплатно
-            </p>
+            <p className="zal__price_title">Игры на PS</p>
             <div className="tournament__columns">
-                <img className="tournament__photo" src={efc} />
-                <img className="tournament__photo" src={ufc} />
-                <img className="tournament__photo" src={tekken} />
-            </div>
-            <div className="tournament__info">
-                <p className="tournament__brief">Помимо игр ниже, можно скачать любую игру на Ваше усмотрения, время скачивания
-                    бесплатно
-                </p>
+                <img className="tournament__photo" src={efc} alt='' />
+                <img className="tournament__photo" src={ufc} alt='' />
+                <img className="tournament__photo" src={tekken} alt='' />
             </div>
         </section>
     )

@@ -1,0 +1,29 @@
+.header__bar_tab {
+    display: flex;
+    gap: 40px;
+}
+
+.header__hamburg_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 620px) {
+    .header__bar_tab {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .header__bar_tab_mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .header__bar_tab_active {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+}
