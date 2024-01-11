@@ -35,7 +35,7 @@
 @import url(./blocks/zal/__std-vip/zal__std-vip.css);
 @import url(./blocks/zal/__reception-komfortplus-ps/zal__reception-komfortplus-ps.css);
 /*Стили для вкладки Ресепшен */
-@import url(./blocks/zal/__reception/reception_text/zal__reception_text.css);
+@import url(./blocks/zal/__reception/_text/zal__reception_text.css);
 /*Стили для вкладки Стандарт */
 @import url(./blocks/zal/__standart/zal__standart.css);
 @import url(./blocks/zal/__standart/_li/zal__standart_li.css);
