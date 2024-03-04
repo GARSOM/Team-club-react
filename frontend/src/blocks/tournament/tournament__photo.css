@@ -1,0 +1,16 @@
+.tournament__photo {
+    width: 180px;
+    align-self: flex-start;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.tournament__photo:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:620px) {
+    .tournament__photo {
+        margin-top: -30px;
+    }
+}

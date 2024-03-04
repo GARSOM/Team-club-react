@@ -1,0 +1,22 @@
+.zal {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+}
+
+.zal_screen {
+    display: none;
+}
+
+@media screen and (max-width: 620px) {
+    .zal {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .zal_screen {
+        display: block;
+
+    }
+}

@@ -1,0 +1,34 @@
+.title {
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    animation: pulsate 1s ease-in-out infinite alternate;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+@keyframes pulsate {
+    100% {
+        /* Larger blur radius */
+        text-shadow:
+            0 0 4px #dc0ae4,
+            0 0 11px #dc0ae4,
+            0 0 19px #dc0ae4,
+            0 0 100px #f09,
+            0 0 150px #f09;
+    }
+
+    0% {
+        /* A slightly smaller blur radius */
+        text-shadow:
+            0 0 4px #dc0ae4,
+            0 0 10px #dc0ae4,
+            0 0 18px #dc0ae4,
+            0 0 38px #f09,
+            0 0 73px #f09,
+    }
+}

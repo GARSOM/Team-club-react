@@ -1,0 +1,8 @@
+.tournament__columns {}
+
+@media screen and (max-width:620px) {
+    .tournament__columns {
+        display: flex;
+        flex-direction: column;
+    }
+}
